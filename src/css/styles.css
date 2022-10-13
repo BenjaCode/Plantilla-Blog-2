@@ -43,3 +43,33 @@ header nav a:hover{
     text-decoration: underline;
     color: #8E9CD3;
 }
+
+/* Main */
+.main{
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+}
+
+.main article .imagen{
+    margin-bottom: 20px;
+}
+
+.main article .imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.main article h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 32px;
+    color: #6499E7;
+    text-align: center;
+}
+
+.main article p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
