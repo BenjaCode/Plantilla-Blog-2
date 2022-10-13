@@ -94,7 +94,7 @@ aside .ad{
     font-size: 30px;
     text-align: center;
     color: #fff;
-    padding: 50px;
+    padding: 50px 0;
     background-color: #8E9CD3;
     border-radius: 8px;
 }
@@ -120,4 +120,53 @@ footer .redes-sociales a{
 footer .redes-sociales a:hover{
     color: #8E9CD3;
     text-decoration: underline;
+}
+
+/* Diseño Responsivo */
+@media screen and (max-width: 767px){
+    header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    header .logo{
+        margin-bottom: 20px;
+    }
+
+    header nav{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, .2);
+        border-radius: 8px;
+    }
+
+    .main{
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+
+    aside{
+        width: 100%;
+        flex-direction: row;
+        border-radius: 0 0 8px 8px;
+    }
+
+    aside .ad{
+        width: 40%;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .autor{
+        order: 2;
+    }
+
+    footer .redes-sociales{
+        order: 1;
+        margin-bottom: 20px;
+    }
 }
