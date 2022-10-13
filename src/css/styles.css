@@ -53,6 +53,7 @@ header nav a:hover{
     background-color: #fff;
     padding: 20px;
     width: 70%;
+    border-radius: 8px 0 0 8px;
 }
 
 .main article .imagen{
@@ -86,6 +87,7 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 0 8px 8px 0;
 }
 
 aside .ad{
