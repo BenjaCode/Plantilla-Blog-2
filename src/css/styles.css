@@ -96,3 +96,26 @@ aside .ad{
     background-color: #8E9CD3;
     border-radius: 8px;
 }
+
+/* Footer */
+footer{
+    width: 100%;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, .2);padding: 20px;
+    color: #6499E7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .redes-sociales a{
+    color: #6499E7;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer .redes-sociales a:hover{
+    color: #8E9CD3;
+    text-decoration: underline;
+}
