@@ -14,3 +14,32 @@ body{
     width: 90%;
     max-width: 1000px;
 }
+
+/* Header y Menu */
+header{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1{
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #6499E7;
+    border-radius: 4px;
+}
+
+header nav a{
+    color: #6499E7;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: #8E9CD3;
+}
